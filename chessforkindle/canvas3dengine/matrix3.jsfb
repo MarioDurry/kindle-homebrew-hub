@@ -120,3 +120,4 @@ Canvas3D.Matrix3.prototype.loadRotationAxis = function(A, s, c) {
 	this.e[2][1] = tyz + sx;
 	this.e[2][2] = tzz + c;
 }
+
