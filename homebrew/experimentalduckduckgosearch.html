@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Ink Search</title>
+    <style>
+        /* E-Ink friendly styling */
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: "Amazon Ember", Helvetica, Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        /* Large, high-contrast borders for visibility */
+        .search-container {
+            display: inline-block;
+            width: 90%;
+            max-width: 500px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            font-size: 20px;
+            border: 3px solid #000000; /* Thick border for E-ink clarity */
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            font-size: 20px;
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Avoiding hover effects or animations which cause "ghosting" on E-ink */
+    </style>
+</head>
+<body>
+
+    <div class="search-container">
+        <form action="https://html.duckduckgo.com/html/" method="POST">
+            <input type="text" name="q" placeholder="Search DuckDuckGo..." autofocus>
+            
+            <input type="hidden" name="k1" value="-1">
+            <input type="hidden" name="kc" value="-1">
+            
+            <button type="submit">SEARCH</button>
+        </form>
+    </div>
+
+</body>
+</html>
