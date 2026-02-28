@@ -22,13 +22,13 @@ Installation:
 
 Usage:
 
-    Download: Open the experimental browser on your Kindle and navigate to <a href="https://mariodurry.github.io/kindle-homebrew-hub/"> this</a> website. Download any of the .zip.txt files (they will save to your documents folder).
+    Download: Open the experimental browser on your Kindle and navigate to https://mariodurry.github.io/kindle-homebrew-hub/ on your kindle. Download any of the .zip.txt files (they will save to your documents folder).
 
     Launch: Open KUAL on your Kindle.
 
     Install: Tap HomebrewBrowser: Install.
 
-    Check: The script will rename the files, extract them to your extensions folder, and show a "Success" message on your screen.
+    Check: The script will rename the files, and extract them to your extensions folder.
 
 Folder Structure:
 Plaintext
