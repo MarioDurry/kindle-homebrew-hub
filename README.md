@@ -1,8 +1,8 @@
 HomebrewHub/Kindle Homebrew Browser is a lightweight KUAL extension designed to bypass the Kindle's download restrictions. It allows you to download homebrew extensions as .zip.txt files via the Kindle's experimental browser, automatically renames them, and installs them into your extensions folder.
-🚀 How it Works
+How it Works:
 
 The Kindle browser often refuses to download .zip or unknown file types. By hosting them as .zip.txt, we trick the browser into downloading them into the documents folder. This script then handles the "heavy lifting" of renaming and extracting them.
-📥 Installation
+Installation:
 
     Prerequisites: * A Jailbroken Kindle.
 
@@ -20,9 +20,9 @@ The Kindle browser often refuses to download .zip or unknown file types. By host
 
     Important: Ensure script.sh and clean.sh use Unix (LF) line endings.
 
-🛠 Usage
+Usage:
 
-    Download: Open the experimental browser on your Kindle and navigate to this GitHub repo. Download any of the .zip.txt files (they will save to your documents folder).
+    Download: Open the experimental browser on your Kindle and navigate to <a href="https://mariodurry.github.io/kindle-homebrew-hub/"> this</a> website. Download any of the .zip.txt files (they will save to your documents folder).
 
     Launch: Open KUAL on your Kindle.
 
@@ -30,7 +30,7 @@ The Kindle browser often refuses to download .zip or unknown file types. By host
 
     Check: The script will rename the files, extract them to your extensions folder, and show a "Success" message on your screen.
 
-📂 Folder Structure
+Folder Structure:
 Plaintext
 
 extensions/
@@ -41,7 +41,7 @@ extensions/
 documents/
 └── [Your downloaded .zip.txt files go here]
 
-❓ Troubleshooting
+Troubleshooting:
 
     Button not appearing in KUAL? Ensure the folder is not "double-nested" (e.g., extensions/Extractor/Extractor/menu.json). The menu.json must be exactly one folder deep inside extensions.
 
