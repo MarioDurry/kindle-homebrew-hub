@@ -17,9 +17,6 @@ Installation:
         Copy the HomebrewBrowserExtractor folder into the extensions directory on your Kindle's root.
 
             Path: Kindle Root/extensions/HomebrewBrowserExtractor/
-
-    Important: Ensure script.sh and clean.sh use Unix (LF) line endings.
-
 Usage:
 
     Download: Open the experimental browser on your Kindle and navigate to https://mariodurry.github.io/kindle-homebrew-hub/ on your kindle. Download any of the .zip.txt files (they will save to your documents folder).
@@ -29,18 +26,6 @@ Usage:
     Install: Tap HomebrewBrowser: Install.
 
     Check: The script will rename the files, and extract them to your extensions folder.
-
-Folder Structure:
-Plaintext
-
-extensions/
-└── HomebrewBrowserExtractor/
-    ├── menu.json
-    ├── script.sh
-    └── clean.sh
-documents/
-└── [Your downloaded .zip.txt files go here]
-
 Troubleshooting:
 
     Button not appearing in KUAL? Ensure the folder is not "double-nested" (e.g., extensions/Extractor/Extractor/menu.json). The menu.json must be exactly one folder deep inside extensions.
