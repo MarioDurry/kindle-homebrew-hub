@@ -333,3 +333,24 @@ span.infoKey {
 	border: 1px #000000 solid;
 	color: #ffff00;
 }
+
+ul {
+list-style-type: none;
+}
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
